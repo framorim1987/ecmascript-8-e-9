@@ -11,7 +11,7 @@
 
 ## Atualizações nas strings e arrays
 
-### String Padding
+#### String Padding
 Foram abordados os dois métodos **padStart** e **padEnd**, que facilitam a concatenação de strings. Ambos os métodos recebem dois parâmetros, o primeiro parâmetro é o tamanho da nova string e o segundo é a string a ser concatenada
 O método **padStart** concatena a nova string no início e o **padEnd** concatena no final
 
@@ -25,7 +25,7 @@ console.log(numeroCartaoStringPadStart);
 [Documentação MDN String.prototype.padStart()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)
 [Documentação MDN String.prototype.padEnd()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd)
 
-### includes
+#### includes
 **Includes** é um método para localizar um valor dentro de um array. que retorna true ou false
 Este métodos retorna um booleno (true ou false)
 
@@ -37,3 +37,23 @@ console.log(nomeAprovado)
 ```
 
 [Documentação MDN Array.prototype.includes()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/contains)
+
+## Entendendo as mudanças no Object
+
+#### Object prototupe entries
+O **Object prototupe entries** é um método que transforma o objeto em um array principal, onde cada conjunto chave valor será separado em um novo array dentro desse array principal
+
+*Exemplo*
+```
+const cursos = {
+    node: 90,
+    react: 80,
+    angular: 70,
+    vue: 60
+}
+
+const cursosEntries = Object.entries(cursos);
+cursosEntries.map(curso => console.log(`${curso[0]} - ${curso[1]}`));
+```
+
+[Documentação MDN Object.entries()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
