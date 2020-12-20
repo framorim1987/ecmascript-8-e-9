@@ -27,7 +27,6 @@ console.log(numeroCartaoStringPadStart);
 
 #### includes
 **Includes** é um método para localizar um valor dentro de um array. Este métodos retorna um booleno (true ou false)
->>>>>>> 2544d124a6900287ebf3932b342cb494cde82386
 
 *Exemplo*
 ```
