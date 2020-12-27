@@ -1,5 +1,5 @@
 # ecmascript-8-e-9
-Este repositório armazena os códigos desenvolvidos nas aulas do curso **Curso de EcmaScript 8 e 9: Novas formas de escrever em Javascript** da __*Alura*__
+Este repositório armazena os códigos desenvolvidos no **Curso de EcmaScript 8 e 9: Novas formas de escrever em Javascript** da __*Alura*__
 
 ## Tópicos
 O curso possui os seguintes tópicos:
@@ -39,8 +39,8 @@ console.log(nomeAprovado)
 
 ## Entendendo as mudanças no Object
 
-#### Object prototupe entries
-O **Object prototupe entries** é um método que transforma o objeto em um array principal, onde cada conjunto chave valor será separado em um novo array dentro desse array principal
+#### Object prototype entries
+O **Object prototype entries** é um método que transforma o objeto em um array principal, onde cada conjunto chave valor será separado em um novo array dentro desse array principal
 
 *Exemplo*
 ```
@@ -56,3 +56,21 @@ cursosEntries.map(curso => console.log(`${curso[0]} - ${curso[1]}`));
 ```
 
 [Documentação MDN Object.entries()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+#### Object.values
+O **Object.values** este método retorna todos os valores do objeto. De todos os conjuntos chave valor ele retornará apenas os valores
+
+*Exemplo*
+```
+const cursos = {
+    node: 90,
+    react: 80,
+    angular: 70,
+    vue: 60
+}
+
+const cursosEntries = Object.entries(cursos);
+console.log(Object.values(cursos));
+```
+
+[Documentação MDN Object.values()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/values)

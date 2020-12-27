@@ -8,6 +8,6 @@ const nomeCompletoStringPadEnd = nome.padEnd(12, sobreNome);
 
 const numeroCartaoStringPadStart = numeroCartao.padStart(16, '*');
 
-console.log(nomeCompletoStringPadStart);
-console.log(nomeCompletoStringPadEnd);
-console.log(numeroCartaoStringPadStart);
+// console.log(nomeCompletoStringPadStart);
+// console.log(nomeCompletoStringPadEnd);
+// console.log(numeroCartaoStringPadStart);

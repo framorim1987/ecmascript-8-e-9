@@ -6,5 +6,6 @@ const cursos = {
 }
 
 const cursosEntries = Object.entries(cursos);
-cursosEntries.map(curso => console.log(`${curso[0]} - ${curso[1]}`));
+//cursosEntries.map(curso => console.log(`${curso[0]} - ${curso[1]}`));
 
+console.log(Object.values(cursos));
