@@ -5,7 +5,12 @@ const cursos = {
     vue: 60
 }
 
-const cursosEntries = Object.entries(cursos);
-//cursosEntries.map(curso => console.log(`${curso[0]} - ${curso[1]}`));
+//Antes
+const cursosKeys = Object.keys(cursos);
+renderizarLista("object-antes", cursosKeys)
 
-console.log(Object.values(cursos));
+//Depois
+
+const cursosEntries = Object.entries(cursos);
+renderizarLista("object-depois", cursosEntries)
+//console.log(Object.values(cursos));

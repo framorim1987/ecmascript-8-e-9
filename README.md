@@ -74,3 +74,29 @@ console.log(Object.values(cursos));
 ```
 
 [Documentação MDN Object.values()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+
+#### Rest e Spread
+A sintaxe de **rest parameter (parâmetros rest)**  nos permite representar um número indefinido de argumentos como um array.
+
+*Exemplo*
+```
+function renderizarLista(...itens) {
+
+    return document.getElementById(itens[0])
+    .innerHTML = `<ul>${itens[1].map(item => `<li>${item}</li>`)}</ul>`
+}
+```
+
+O **Spread operator** permite unir arrays e objetos, sendo este seu uso mais comum.
+
+*Exemplo*
+```
+const novosCuros = {angular, ...frameworks}
+console.log(novosCuros);
+```
+
+[Documentação MDN Parâmetros Rest](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+[Documentação MDN Spread operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+
+## Analisando mais a fundo eventos assíncronos
