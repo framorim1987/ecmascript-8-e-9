@@ -1,12 +1,17 @@
 # ecmascript-8-e-9
 Este repositório armazena os códigos desenvolvidos no **Curso de EcmaScript 8 e 9: Novas formas de escrever em Javascript** da __*Alura*__
 
-## Tópicos
+## Sobre o projeto
+O projeto trata-se de uma lista de exercício que utilizam as novas funcionalidades do EcmaScript 8 e 9.
+
+## Sobre o curso
 O curso possui os seguintes tópicos:
 1. Atualizações nas strings e arrays
 2. Entendendo as mudanças no Object
 3. Analisando mais a fundo eventos assíncronos
 4. Vamos trabalhar com iterators
+
+Abaixo a explicação sobre as funcionalidades abordadas em cada tópico e exemplos dos códigos desenvolvidos.
 
 ## Atualizações nas strings e arrays
 Neste tópico foram passadas duas novas funcionalidades, **string padding** e **includes**
